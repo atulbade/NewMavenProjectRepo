@@ -2,12 +2,12 @@
 <testng-results skipped="0" failed="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Surefire suite" duration-ms="21" started-at="2019-04-04T12:14:25Z" finished-at="2019-04-04T12:14:25Z">
+  <suite name="Surefire suite" duration-ms="21" started-at="2019-04-12T07:30:53Z" finished-at="2019-04-12T07:30:53Z">
     <groups>
     </groups>
-    <test name="Surefire test" duration-ms="21" started-at="2019-04-04T12:14:25Z" finished-at="2019-04-04T12:14:25Z">
+    <test name="Surefire test" duration-ms="21" started-at="2019-04-12T07:30:53Z" finished-at="2019-04-12T07:30:53Z">
       <class name="MavenPackage.FirstMavenclass_Test">
-        <test-method status="PASS" signature="method()[pri:0, instance:MavenPackage.FirstMavenclass_Test@1be98f5]" name="method" duration-ms="10" started-at="2019-04-04T17:44:25Z" finished-at="2019-04-04T17:44:25Z">
+        <test-method status="PASS" signature="method()[pri:0, instance:MavenPackage.FirstMavenclass_Test@12cbfa]" name="method" duration-ms="10" started-at="2019-04-12T13:00:53Z" finished-at="2019-04-12T13:00:53Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- method -->

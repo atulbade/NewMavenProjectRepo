@@ -7,7 +7,7 @@
   <packaging>war</packaging>
   <properties>
   			<jre.level>1.8</jre.level>
-  			<jdk.levl>1.8</jdk.levl>
+  			<jdk.level>1.8</jdk.level>
   </properties>
   
   <build>
@@ -30,6 +30,14 @@
 					</suiteXMLFiles>
 				</configuration>
   		</plugin>
+  		<plugin>
+  				<groupId>org.apache.maven.plugins</groupId>
+    			<artifactId>maven-war-plugin</artifactId>
+   				<version>2.6</version>
+   				<configuration>
+   					<failOnMissingWebXml>false</failOnMissingWebXml>
+   				</configuration>
+  		</plugin>
    	</plugins>
   </build>
   
@@ -44,6 +52,7 @@
     	<artifactId>testng</artifactId>
     	<version>6.9.10</version>
     </dependency>
+    
   </dependencies>
   
 </project>
